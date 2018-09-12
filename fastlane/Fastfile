@@ -21,6 +21,27 @@ platform :ios do
     # add actions here: https://docs.fastlane.tools/actions
   end
 
+  lane :test do
+
+  # automatic_code_signing
+
+  get_certificates        
+  get_provisioning_profile(app_identifier: "com.yctech.jenkins")
+  get_provisioning_profile(app_identifier: "com.yctech.jenkins.Jenkins")
+
+  # gym(
+    # scheme: "JenkinsDemo",
+    # export_options: {
+    #  signingStyle: "automatic"
+    #}
+  # )
+
+  build_app
+  # deliver(force: true)
+  pilot(skip_waiting_for_build_processing: true)  // ts
+
+  end
+
   lane :release do |option|
  	 # get_certificates           # invokes cert
   	 # get_provisioning_profile   # invokes sigh
@@ -32,7 +53,12 @@ platform :ios do
  	 # upload_to_testflight
 
 	#证书签名
-    sigh
+    # sigh
+
+    cert
+    sigh(force: true)
+
+
     #编译打包
     scheme_name = option[:scheme]
     configuration = 'Release'
@@ -42,8 +68,9 @@ platform :ios do
     output_name = "#{scheme_name}_#{configuration}_#{version}_#{build}_#{Time.now.strftime('%Y%m%d%H%M%S')}.ipa"
     gym(scheme: scheme_name, clean: true, export_method:'app-store', configuration: configuration, output_directory: output_directory, output_name: output_name)
 
+    build_app
 
-    upload_to_testflight
+    # upload_to_testflight
     # deliver(force: true)
 
   end
