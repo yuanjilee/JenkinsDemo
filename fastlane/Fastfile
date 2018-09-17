@@ -66,9 +66,9 @@ platform :ios do
     build = '4'# get_info_plist_value(path: "./#{scheme_name}/Info.plist", key: "CFBundleVersion")
     output_directory = File.expand_path("..", Dir.pwd) + File::Separator + 'build'
     output_name = "#{scheme_name}_#{configuration}_#{version}_#{build}_#{Time.now.strftime('%Y%m%d%H%M%S')}.ipa"
-    # gym(scheme: scheme_name, clean: true, export_method:'app-store', configuration: configuration, output_directory: output_directory, output_name: output_name)
+    gym(scheme: scheme_name, clean: true, export_method:'app-store', configuration: configuration, output_directory: output_directory, output_name: output_name)
 
-    build_app
+    # build_app
 
     # upload_to_testflight
     # deliver(force: true)
