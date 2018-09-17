@@ -29,14 +29,14 @@ platform :ios do
   get_provisioning_profile(app_identifier: "com.yctech.jenkins")
   get_provisioning_profile(app_identifier: "com.yctech.jenkins.Jenkins")
 
-  # gym(
-    # scheme: "JenkinsDemo",
-    # export_options: {
-    #  signingStyle: "automatic"
-    #}
-  # )
+  gym(
+    scheme: "JenkinsDemo",
+    export_options: {
+     signingStyle: "automatic"
+    }
+  )
 
-  build_app
+  # build_app
   # deliver(force: true)
   # pilot(skip_waiting_for_build_processing: true)  // ts
 
