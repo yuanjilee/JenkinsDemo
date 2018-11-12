@@ -38,7 +38,7 @@ platform :ios do
 
   # build_app
   # deliver(force: true)
-  # pilot(skip_waiting_for_build_processing: true)  // ts
+   pilot(skip_waiting_for_build_processing: true)  // ts
 
   end
 
