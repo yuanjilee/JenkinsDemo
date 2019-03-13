@@ -1,0 +1,53 @@
+BCSymbolMap Version: 2.0
+_$S7Jenkins19ShareViewControllerC14isContentValidSbyFTo
+_$S7Jenkins19ShareViewControllerC13didSelectPostyyFTo
+_$S7Jenkins19ShareViewControllerC18configurationItemsSayypGSgyFTo
+_$S7Jenkins19ShareViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc
+_$S7Jenkins19ShareViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo
+_$S7Jenkins19ShareViewControllerC5coderACSgSo7NSCoderC_tcfC
+_$S7Jenkins19ShareViewControllerC5coderACSgSo7NSCoderC_tcfc
+_$S7Jenkins19ShareViewControllerC5coderACSgSo7NSCoderC_tcfcTo
+_$S7Jenkins19ShareViewControllerCfD
+_$S7Jenkins19ShareViewControllerCMa
+_$SSSSgWOe
+_OBJC_METACLASS_$__TtC7Jenkins19ShareViewController
+_$S7JenkinsMXM
+_$S7Jenkins19ShareViewControllerCMn
+_$S7Jenkins19ShareViewControllerCML
+_$S7Jenkins19ShareViewControllerCMf
+_symbolic ____ 7Jenkins19ShareViewControllerC
+_symbolic So30SLComposeServiceViewControllerC
+_$S7Jenkins19ShareViewControllerCMF
+__swift_FORCE_LOAD_$_swiftFoundation_$_Jenkins
+__swift_FORCE_LOAD_$_swiftDarwin_$_Jenkins
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_Jenkins
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_Jenkins
+__swift_FORCE_LOAD_$_swiftDispatch_$_Jenkins
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_Jenkins
+__swift_FORCE_LOAD_$_swiftUIKit_$_Jenkins
+__swift_FORCE_LOAD_$_swiftCoreImage_$_Jenkins
+__swift_FORCE_LOAD_$_swiftMetal_$_Jenkins
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_Jenkins
+___swift_reflection_version
+_objc_classes
+_$S7Jenkins19ShareViewControllerCN
+_OBJC_CLASS_$__TtC7Jenkins19ShareViewController
+Apple LLVM version 10.0.0 (clang-1000.11.45.1)
+-emit-bc /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/Jenkins/ShareViewController.swift -emit-module-path /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Objects-normal/arm64/Jenkins.swiftmodule -emit-module-doc-path /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Objects-normal/arm64/Jenkins.swiftdoc -serialize-diagnostics-path /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Objects-normal/arm64/Jenkins-master.dia -emit-objc-header-path /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Objects-normal/arm64/Jenkins-Swift.h -emit-dependencies-path /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Objects-normal/arm64/Jenkins-master.d -target arm64-apple-ios11.2 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk -I /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/BuildProductsPath/Release-iphoneos -F /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/BuildProductsPath/Release-iphoneos -application-extension -g -module-cache-path /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/ModuleCache.noindex -swift-version 4 -O -serialize-debugging-options -Xcc -I/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Jenkins-generated-files.hmap -Xcc -I/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Jenkins-own-target-headers.hmap -Xcc -I/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Jenkins-all-target-headers.hmap -Xcc -iquote -Xcc /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Jenkins-project-headers.hmap -Xcc -I/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/BuildProductsPath/Release-iphoneos/include -Xcc -I/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/DerivedSources/arm64 -Xcc -I/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/DerivedSources -Xcc -working-directory/Users/worktilemobile/.jenkins/workspace/jenkinsDemo -parse-as-library -module-name Jenkins -num-threads 4 -o /Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/Objects-normal/arm64/ShareViewController.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+/Users/worktilemobile/.jenkins/workspace/jenkinsDemo
+Apple Swift version 4.2.1 effective-4.1.50 (swiftlang-1000.11.42 clang-1000.11.45.1)
+/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/Jenkins/ShareViewController.swift
+$S7Jenkins19ShareViewControllerCMa
+<compiler-generated>
+deinit
+ShareViewController.swift
+/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/Jenkins
+init
+configurationItems
+didSelectPost
+isContentValid
+_JenkinsVersionString
+_JenkinsVersionNumber
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/worktilemobile/.jenkins/workspace/jenkinsDemo/derivedData/Build/Intermediates.noindex/ArchiveIntermediates/JenkinsDemo/IntermediateBuildFilesPath/JenkinsDemo.build/Release-iphoneos/Jenkins.build/DerivedSources/Jenkins_vers.c
