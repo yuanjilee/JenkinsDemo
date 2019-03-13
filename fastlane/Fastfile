@@ -47,9 +47,9 @@ platform :ios do
 
   # build_app
   # deliver(force: true)
-  # pilot(skip_waiting_for_build_processing: true)  # ts
+  pilot(skip_waiting_for_build_processing: true, appidentifier: "com.yctech.jenkins", ipa: "JenkinsDemo.ipa")  # ts
 	  
-    upload_to_testflight(skip_waiting_for_build_processing: true)
+    #upload_to_testflight(skip_waiting_for_build_processing: true)
 
   end
 
