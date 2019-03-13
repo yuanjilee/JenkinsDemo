@@ -35,8 +35,8 @@ platform :ios do
   setup_jenkins(keychain_password: "123")
 
   get_certificates        
-  get_provisioning_profile(app_identifier: "com.worktile.lesschat")
-  get_provisioning_profile(app_identifier: "com.worktile.lesschat.shareextension")
+  get_provisioning_profile(app_identifier: "com.yctech.jenkins")
+  get_provisioning_profile(app_identifier: "com.yctech.jenkins.Jenkins")
 
   gym(
     scheme: "JenkinsDemo",
