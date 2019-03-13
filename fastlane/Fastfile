@@ -37,6 +37,8 @@ platform :ios do
   get_certificates        
   get_provisioning_profile(app_identifier: "com.yctech.jenkins")
   get_provisioning_profile(app_identifier: "com.yctech.jenkins.Jenkins")
+	  
+  scan(scheme: "TheNameOfTheSchemeYouNeedItToLookAt")
 
   gym(
     scheme: "JenkinsDemo",
