@@ -25,13 +25,14 @@ platform :ios do
 
   # automatic_code_signing
 	  
-  unlock_keychain( # If the keychain file is located in the standard location `~/Library/Keychains`, then it is sufficient to provide the keychain file name, or file name with its suffix.
-  path: "/Users/Shared/Jenkins/Library/Keychains/login.keychain",
-  password: "123"
-	  )	  
+  #unlock_keychain( # If the keychain file is located in the standard location `~/Library/Keychains`, then it is sufficient to provide the keychain file name, or file name with its suffix.
+  #path: "/Users/Shared/Jenkins/Library/Keychains/login.keychain",
+  #password: "123"
+  #	  )	  
 
   get_build_number
   increment_build_number
+  setup_jenkins(keychain_password: "123")
 
   get_certificates        
   get_provisioning_profile(app_identifier: "com.worktile.lesschat")
