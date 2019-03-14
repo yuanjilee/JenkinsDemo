@@ -40,7 +40,7 @@ platform :ios do
   #scan(scheme: "JenkinsDemo")
 
   gym(
-    clean: false,
+    clean: true,
     scheme: "JenkinsDemo",
     export_options: {
      signingStyle: "automatic"
