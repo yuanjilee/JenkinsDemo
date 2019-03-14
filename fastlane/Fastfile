@@ -38,7 +38,7 @@ platform :ios do
   get_provisioning_profile(app_identifier: "com.yctech.jenkins")
   get_provisioning_profile(app_identifier: "com.yctech.jenkins.Jenkins")
 	  
-  scan(scheme: "TheNameOfTheSchemeYouNeedItToLookAt")
+  scan(scheme: "JenkinsDemo")
 
   gym(
     scheme: "JenkinsDemo",
