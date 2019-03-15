@@ -29,8 +29,8 @@ platform :ios do
   #password: "123"
   #	  )	  
 
-  #get_build_number
-  #increment_build_number
+  get_build_number
+  increment_build_number
   setup_jenkins(keychain_password: "123")
 
   get_certificates        
